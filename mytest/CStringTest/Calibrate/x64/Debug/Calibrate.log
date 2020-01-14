@@ -1,0 +1,8 @@
+﻿  Calibrate.cpp
+d:\qtdemo\mytest\cstringtest\calibrate\calibrate.cpp(106): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\calibrate\calibrate.cpp(147): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\calibrate\calibrate.cpp(148): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\calibrate\calibrate.cpp(192): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\calibrate\calibrate.cpp(193): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  Calibrate.vcxproj -> D:\qtdemo\mytest\CStringTest\x64\Debug\Calibrate.exe
+  Calibrate.vcxproj -> D:\qtdemo\mytest\CStringTest\x64\Debug\Calibrate.pdb (Full PDB)

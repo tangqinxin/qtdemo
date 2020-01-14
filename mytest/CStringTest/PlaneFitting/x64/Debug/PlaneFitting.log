@@ -1,0 +1,21 @@
+﻿  Plane.cpp
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(59): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(84): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(85): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(86): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(108): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(133): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(134): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(145): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(146): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(147): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(166): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(171): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(172): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(173): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\planefitting\plane.cpp(212): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  GetPlane.cpp
+  正在生成代码...
+  PlaneFitting.vcxproj -> D:\qtdemo\mytest\CStringTest\x64\Debug\PlaneFitting.exe
+  PlaneFitting.vcxproj -> D:\qtdemo\mytest\CStringTest\x64\Debug\PlaneFitting.pdb (Full PDB)

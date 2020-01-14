@@ -1,0 +1,12 @@
+﻿  myfun.cpp
+d:\qtdemo\mytest\cstringtest\calibwithbutton\myfun.cpp(12): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+  CalibCam.cpp
+d:\qtdemo\mytest\cstringtest\calibwithbutton\calibcam.cpp(98): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\calibwithbutton\calibcam.cpp(156): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\calibwithbutton\calibcam.cpp(157): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  CalibWithButton.cpp
+  正在生成代码...
+  CalibWithButton.vcxproj -> D:\qtdemo\mytest\CStringTest\x64\Debug\CalibWithButton.exe
+  CalibWithButton.vcxproj -> D:\qtdemo\mytest\CStringTest\x64\Debug\CalibWithButton.pdb (Full PDB)

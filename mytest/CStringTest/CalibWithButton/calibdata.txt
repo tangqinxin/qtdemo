@@ -1,0 +1,3 @@
+D:\\qtdemo\\mytest\\CStringTest\\Calibrate\\image\\1_l.bmp
+D:\\qtdemo\\mytest\\CStringTest\\Calibrate\\image\\2_l.bmp
+D:\\qtdemo\\mytest\\CStringTest\\Calibrate\\image\\3_l.bmp

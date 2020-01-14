@@ -1,0 +1,7 @@
+﻿  ImgProcess.cpp
+  ImgProFun.cpp
+d:\qtdemo\mytest\cstringtest\imgprocess\imgprofun.cpp(131): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\qtdemo\mytest\cstringtest\imgprocess\imgprofun.cpp(132): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
+  ImgProcess.vcxproj -> D:\qtdemo\mytest\CStringTest\x64\Debug\ImgProcess.exe
+  ImgProcess.vcxproj -> D:\qtdemo\mytest\CStringTest\x64\Debug\ImgProcess.pdb (Full PDB)
