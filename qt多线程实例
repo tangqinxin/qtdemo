@@ -1,0 +1,73 @@
+Qt里面的多线程实现主要有2种方法
+
+方法1
+自定义的类myThread,继承于QThread函数，并重写run()方法。通过Qthread的start来进行调用
+
+比如
+
+//-----------------------------------------mythread.h
+#include <QThread>
+class mythread : public QThread
+{
+    Q_OBJECT
+public:
+    explicit mythread(QObject *parent = nullptr);
+protected:
+    void run();
+signals:
+    void isdone();
+
+public slots:
+};
+
+//-----------------------------------------mythread.cpp
+mythread::mythread(QObject *parent) : QThread(parent)
+{}
+
+void mythread::run()
+{
+    QThread::sleep(5);
+    emit isdone();
+}
+
+
+//-----------------------------------------mainwindow.cpp
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow)
+{
+    ui->setupUi(this);
+    mytimer= new QTimer(this);
+    t=new mythread(this);
+
+    connect(mytimer,&QTimer::timeout,this,dealtimeout);
+    connect(t,&mythread::isdone,this,dealisdone);
+}
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
+
+void MainWindow::dealtimeout()
+{
+    static int i=0;
+    i++;
+    ui->lcdNumber->display(i);
+}
+
+void MainWindow::dealisdone()
+{
+    qDebug()<<"over"<<endl;
+    mytimer->stop();
+}
+
+void MainWindow::on_pushButton_clicked()
+{
+    if(mytimer->isActive()==false){
+        mytimer->start(100);
+    }
+    t->start();
+}
+
+方法2 
